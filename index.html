@@ -96,7 +96,9 @@
   </div>
 
   <script>
-    const socket = new WebSocket('ws://localhost:3000');
+    
+    const socket = new WebSocket('wss://websocket-chat-app-xzlf.onrender.com');
+
 
     socket.onopen = () => {
       console.log('Connected to server');
